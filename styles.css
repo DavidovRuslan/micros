@@ -43,7 +43,7 @@ body{
     position: absolute;
     width: 20px;
     height: 4px;
-    top: 60%;
+    top: 40%;
     margin-top: -2.5px;
     left: 50%;
     margin-left: -10px;
@@ -59,7 +59,7 @@ body{
     transform: translateY(-5px);
   }
 .burger__btn-a span::after{
-    transform: translateY(5px);
+    transform: translateY(7px);
   }
 .burger__btn-a_active span::before {
     transform: rotate(45deg);
