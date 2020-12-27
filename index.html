@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300;1,400&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__brand">
+                <span><span class="gold">I</span>ndusrtial.<span class="gold">co</span></span>
+            </div>
+            <div class="header__nav">
+                <ul class="header__nav-ul">
+                    <a href="#"><li class="header__nav-li">главная</li> </a>
+                    <a href="#"><li class="header__nav-li">проекты</li> </a>
+                    <a href="#"><li class="header__nav-li">продукты</li> </a>
+                    <a href="#"><li class="header__nav-li">разработки</li> </a>
+                    <a href="#"><li class="header__nav-li">контакты</li> </a>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <div class="slider__body">
+                <div class="slide1 slider__img slider__img-active"></div>
+                <div class="slide2 slider__img"></div>
+                <div class="slide3 slider__img"></div>
+                <div class="slide4 slider__img"></div>
+                <div class="slide5 slider__img"></div>
+                <div class="slider__nav-body">
+                    <div class="slider__nav">
+                        <span class="slider__dot slider__dot-active" data-target="0"></span>
+                        <span class="slider__dot" data-target="1"></span>
+                        <span class="slider__dot" data-target="2"></span>
+                        <span class="slider__dot" data-target="3"></span>
+                        <span class="slider__dot" data-target="4"></span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <section class="section__info">
+            <div class="section__info-img">
+                <img src="img/winner.png" alt="winner">
+            </div>
+            <div class="section__info-text">
+                <h2>Победитель в нефтянной и газовой индустрии</h2>
+                <h3>Компания  владеет семью нефтеперерабатывающими заводами 
+                    общей мощностью 58 млн т нефти в год, а также двумя мини-НПЗ.</h3>
+                 <p>Доказанные запасы углеводородов компании на 1 января 2011 года составили 
+                     17,255 млрд баррелей нефтяного эквивалента, в том числе 13,319 млрд баррелей
+                      нефти и 23,615 трлн куб. футов газа. По величине доказанных запасов нефти «ЛУКойл»,
+                       по собственным сведениям, на эту дату являлся крупнейшей частной нефтяной компанией в мире, по доказанным запасам газа — шестой.
+                    </p>
+                 <a href="#">Подробнее</a>
+            </div>
+
+        </section>
+
+        <section class="menu">
+            <div class="menu__news">
+                <h3>Новости</h3>
+                <span class="menu__span"></span>
+                <p class="menu__news-p">Суммарные извлекаемые запасы нефти по данным месторождениям — 89,73 млн тонн</p>
+                <div class="menu__news-add">
+                    <p>04.10.2010</p>
+                    <a href="#">6 комментариев</a>
+                </div>
+                <p class="menu__news-p">Cуммарные извлекаемые запасы нефти по данным месторождениям — 89,73 млн тонн</p>
+                <div class="menu__news-add">
+                    <p>12.10.2010</p>
+                    <a href="#">6 комментариев</a>
+                </div>
+                <button>All projects news</button>
+            </div>
+
+            <div class="menu__recommend">
+                <h3>Рекомендации</h3>
+                <span class="menu__span"></span>
+                <div class="recommend__slider">
+                    <div class="recommend__slide">
+                            <img src="img/recomend-body.png" style="width: 100%;height: auto;" class="recommend__slide-img">
+                           <!-- рекомендации текст человека -->
+                            <p class="recommend__slide-p recommend__slide-p-active">Ассоциация малых и средних нефтедобывающих предприятий
+                                    является нашим партнёром</p>
+                            <p class="recommend__slide-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ut architecto omnis.</p>
+                    </div>
+                 
+                    <div class="recommend__arrow">
+                        <a class="recommend__arrow-prev">&#8592</a>
+                        <a class="recommend__arrow-next recommend__arrow-active">&#8594</a>
+                    </div>
+
+                    <div class="recommend__people">
+                        <!-- рекомендации фото человека -->
+                       <div class="recommend__people-img recommend__people-img-active" style="background: url('img/recomend-people.jpg') no-repeat center; background-size: cover;"></div>
+                       <div class="recommend__people-img" style="background: url('img/ruslan.jpg') no-repeat center; background-size: cover;"></div>
+                      
+                        <!-- рекомендации инфо человека -->
+                       <div class="recommend__people-text recommend__people-text-active">
+                           <p class="recommend__people-name">Patricia Wilson, менеджер </p>
+                           <p class="recommend__people-mail">website@demolink.org</p>
+                       </div>
+                       <div class="recommend__people-text">
+                           <p class="recommend__people-name">Давыдов Руслан, full stack developer</p>
+                           <p class="recommend__people-mail">+998998751080</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu__service">
+                <h3>Лучшие сервисы</h3>
+                <span class="menu__span"></span>
+                <button>+ Бурение</button>
+                <button>+ Исследование</button>
+                <button>+ Анализ</button>
+                <button>+ Планирование</button>
+                <button>+ Поддержка</button>
+                <button>+ Очистка</button>
+            </div>
+        </section>
+
+        <footer>
+                <div class="footer__politics">
+                    <p>Industrial.co  ©  2011</p>
+                    <a href="#">политика</a>
+                </div>
+                <div class="footer__social">
+                    <p>социальные сети</p>
+                    <a href="#">&#9989</a>
+                    <a href="#">&#9989</a>
+                    <a href="#">&#9989</a>
+                    <a href="#">&#9989</a>
+                </div>
+        </footer>
+    </div>
+    
+    <div class="burger">
+        <div class="burger__btn">
+          <a class="burger__btn-a">
+            <span></span>
+           </a>
+        </div>
+        <nav class="burger__nav">
+            <a href="#">главная </a>
+            <a href="#">проекты</a>
+            <a href="#">продукты</a>
+            <a href="#">разработки</a>
+            <a href="#">контакты</a>
+        </nav>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
